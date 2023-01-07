@@ -1,0 +1,13 @@
+{
+  "name": "slider_colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": " tailwindcss -i ./style.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./style.css -o ./css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
